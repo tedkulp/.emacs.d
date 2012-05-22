@@ -18,7 +18,11 @@
                                   starter-kit-js
                                   ace-jump-mode
                                   color-theme-sanityinc-solarized
-                                  expand-region)
+                                  expand-region
+                                  org
+                                  yaml-mode
+                                  yasnippet
+                                  yasnippet-bundle)
   "A list of packages to ensure are installed at launch.")
 
 (dolist (p my-packages)
