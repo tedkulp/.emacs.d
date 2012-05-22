@@ -12,7 +12,12 @@
   (package-refresh-contents))
 
 ;; Add in your own as you wish:
-(defvar my-packages '(starter-kit starter-kit-lisp starter-kit-bindings starter-kit-ruby ace-jump-mode color-theme-sanityinc-solarized)
+(defvar my-packages '(starter-kit starter-kit-lisp
+                                  starter-kit-bindings
+                                  starter-kit-ruby
+                                  starter-kit-js
+                                  ace-jump-mode
+                                  color-theme-sanityinc-solarized)
   "A list of packages to ensure are installed at launch.")
 
 (dolist (p my-packages)
