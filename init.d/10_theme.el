@@ -1,1 +1,1 @@
-(add-hook 'after-init-hook (lambda () (load-theme 'sanityinc-solarized-dark)))
+(add-hook 'after-init-hook (lambda () (load-theme 'solarized-dark)))
