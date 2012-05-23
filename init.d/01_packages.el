@@ -22,7 +22,10 @@
                                   org
                                   yaml-mode
                                   yasnippet
-                                  yasnippet-bundle)
+                                  yasnippet-bundle
+                                  feature-mode
+                                  markdown-mode
+                                  markdown-mode+)
   "A list of packages to ensure are installed at launch.")
 
 (dolist (p my-packages)
