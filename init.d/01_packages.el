@@ -22,12 +22,13 @@
                                   org
                                   yaml-mode
                                   yasnippet
-                                  yasnippet-bundle
                                   feature-mode
                                   markdown-mode
-                                  markdown-mode+)
+                                  markdown-mode+
+                                  whole-line-or-region)
   "A list of packages to ensure are installed at launch.")
 
 (dolist (p my-packages)
   (when (not (package-installed-p p))
+    (package-refresh-contents)
     (package-install p)))
