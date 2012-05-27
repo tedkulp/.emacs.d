@@ -1,5 +1,6 @@
 /.smex-items
 auto-save-list/*
+autosaves/*
 backups/*
 elpa/*
 eshell/*
